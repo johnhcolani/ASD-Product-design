@@ -53,8 +53,8 @@ def generate_image_html(image_path, alt_text, width=300):
     encoded_path = '/'.join(quote(part, safe='') for part in image_path.split('/'))
     image_name = get_image_name(image_path)
     
-    return f'''  <div style="text-align: center;">
-    <img src="images/Clients/{encoded_path}" alt="{alt_text}" width="{width}" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+    return f'''  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/{encoded_path}" alt="{alt_text}" width="{width}" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: {width}px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">{image_name}</p>
   </div>'''
 
@@ -85,66 +85,66 @@ def update_readme():
     # Remove any orphaned divs after the main grid container closes
     content = re.sub(r'(</div>\s*\n)(\s*<div style="text-align: center;">.*?</div>\s*\n)+', r'\1', content, flags=re.DOTALL)
     
-    # Update Authorization section - add border and title
+    # Update Authorization section - add border and title with flexbox for better GitHub compatibility
     auth_pattern = r'(#### 🔐 Authorization\s*<div[^>]*>).*?(</div>\s*\n(?:####|###|##|#|$))'
     if auth_images:
         auth_replacement = f'''#### 🔐 Authorization
-<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
-  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Authorization Screens</h4>
-  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Authorization Screens</h4>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
 {auth_html}
   </div>
 </div>
 \\2'''
     else:
         auth_replacement = f'''#### 🔐 Authorization
-<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
-  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Authorization Screens</h4>
-  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Authorization Screens</h4>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
     <!-- No images yet - add images to images/Clients/Authorization/ -->
   </div>
 </div>
 \\2'''
     content = re.sub(auth_pattern, auth_replacement, content, flags=re.DOTALL)
     
-    # Update Home section - add border and title
+    # Update Home section - add border and title with flexbox
     home_pattern = r'(#### 🏠 Home Screen\s*<div[^>]*>).*?(</div>\s*\n(?:####|###|##|#|$))'
     if home_images:
         home_replacement = f'''#### 🏠 Home Screen
-<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
-  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Home Screen</h4>
-  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Home Screen</h4>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
 {home_html}
   </div>
 </div>
 \\2'''
     else:
         home_replacement = f'''#### 🏠 Home Screen
-<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
-  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Home Screen</h4>
-  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Home Screen</h4>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
     <!-- No images yet - add images to images/Clients/Home/ -->
   </div>
 </div>
 \\2'''
     content = re.sub(home_pattern, home_replacement, content, flags=re.DOTALL)
     
-    # Update Category Buttons section - add border and title
+    # Update Category Buttons section - add border and title with flexbox
     category_pattern = r'(#### 🎯 Category Buttons\s*<div[^>]*>).*?(</div>\s*\n(?:####|###|##|#|$))'
     if category_images:
         category_replacement = f'''#### 🎯 Category Buttons
-<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
-  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Category Buttons & Features</h4>
-  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Category Buttons & Features</h4>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
 {category_html}
   </div>
 </div>
 \\2'''
     else:
         category_replacement = f'''#### 🎯 Category Buttons
-<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
-  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Category Buttons & Features</h4>
-  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Category Buttons & Features</h4>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
     <!-- No images yet - add images to images/Clients/CategoryButtons/ -->
   </div>
 </div>

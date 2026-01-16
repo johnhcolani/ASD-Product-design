@@ -31,113 +31,113 @@ As a client, you can browse materials, get expert advice, create contracts, and 
 ### 📸 App Screenshots
 
 #### 🔐 Authorization
-<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
-  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Authorization Screens</h4>
-  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
-  <div style="text-align: center;">
-    <img src="images/Clients/Authorization/Entry%20Screen.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Authorization Screens</h4>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/Authorization/Entry%20Screen.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Entry Screen</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/Authorization/Forget%20Password.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/Authorization/Forget%20Password.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Forget Password</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/Authorization/Login.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/Authorization/Login.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Login</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/Authorization/SignUp.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/Authorization/SignUp.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Signup</p>
   </div>
   </div>
 </div>
 
 #### 🏠 Home Screen
-<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
-  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Home Screen</h4>
-  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
-  <div style="text-align: center;">
-    <img src="images/Clients/Home/Bottom%20Nav/Google%20map.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Home Screen</h4>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/Home/Bottom%20Nav/Google%20map.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Google Map</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/Home/Bottom%20Nav/Profile.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/Home/Bottom%20Nav/Profile.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Profile</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/Home/Bottom%20Nav/scrolled%20Home.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/Home/Bottom%20Nav/scrolled%20Home.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Scrolled Home</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/Home/Bottom%20Nav/Search%20material.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/Home/Bottom%20Nav/Search%20material.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Search Material</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/Home/Home.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/Home/Home.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home</p>
   </div>
   </div>
 </div>
 
 #### 🎯 Category Buttons
-<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
-  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Category Buttons & Features</h4>
-  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/Amy-%20Ai%20Assistant.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Category Buttons & Features</h4>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/Amy-%20Ai%20Assistant.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Amy Ai Assistant</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/Appointment.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/Appointment.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Appointment</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/Book%20Appointment.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/Book%20Appointment.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Book Appointment</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/Cart.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/Cart.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Cart</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/Chat%20with%20SalesRep.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/Chat%20with%20SalesRep.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Chat With Salesrep</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/Get%20Started.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/Get%20Started.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Get Started</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/invoice%20content.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/invoice%20content.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Invoice Content</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/invoice.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/invoice.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Invoice</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/My%20Project.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/My%20Project.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">My Project</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/New%20Contract.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/New%20Contract.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">New Contract</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/Pay%20Invoice.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/Pay%20Invoice.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Pay Invoice</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/Project%20Tracker.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/Project%20Tracker.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Project Tracker</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/SalesRep%20List.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/SalesRep%20List.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Salesrep List</p>
   </div>
-  <div style="text-align: center;">
-    <img src="images/Clients/CategoryButtons/Schedule.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
+    <img src="images/Clients/CategoryButtons/Schedule.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: 300px;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Schedule</p>
   </div>
   </div>
