@@ -31,7 +31,9 @@ As a client, you can browse materials, get expert advice, create contracts, and 
 ### 📸 App Screenshots
 
 #### 🔐 Authorization
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
+  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Authorization Screens</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
   <div style="text-align: center;">
     <img src="images/Clients/Authorization/Entry%20Screen.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Entry Screen</p>
@@ -48,10 +50,13 @@ As a client, you can browse materials, get expert advice, create contracts, and 
     <img src="images/Clients/Authorization/SignUp.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Signup</p>
   </div>
+  </div>
 </div>
 
 #### 🏠 Home Screen
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
+  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Home Screen</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
   <div style="text-align: center;">
     <img src="images/Clients/Home/Bottom%20Nav/Google%20map.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Google Map</p>
@@ -72,10 +77,13 @@ As a client, you can browse materials, get expert advice, create contracts, and 
     <img src="images/Clients/Home/Home.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home</p>
   </div>
+  </div>
 </div>
 
 #### 🎯 Category Buttons
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
+  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Category Buttons & Features</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
   <div style="text-align: center;">
     <img src="images/Clients/CategoryButtons/Amy-%20Ai%20Assistant.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Amy Ai Assistant</p>
@@ -132,6 +140,8 @@ As a client, you can browse materials, get expert advice, create contracts, and 
     <img src="images/Clients/CategoryButtons/Schedule.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Schedule</p>
   </div>
+  </div>
+</div>
 </div>
 
 ### Key Features

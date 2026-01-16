@@ -85,28 +85,70 @@ def update_readme():
     # Remove any orphaned divs after the main grid container closes
     content = re.sub(r'(</div>\s*\n)(\s*<div style="text-align: center;">.*?</div>\s*\n)+', r'\1', content, flags=re.DOTALL)
     
-    # Update Authorization section - match from header to closing grid div
+    # Update Authorization section - add border and title
     auth_pattern = r'(#### 🔐 Authorization\s*<div[^>]*>).*?(</div>\s*\n(?:####|###|##|#|$))'
     if auth_images:
-        auth_replacement = f'\\1\n{auth_html}\n\\2'
+        auth_replacement = f'''#### 🔐 Authorization
+<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
+  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Authorization Screens</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+{auth_html}
+  </div>
+</div>
+\\2'''
     else:
-        auth_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/Authorization/ -->\n\\2'
+        auth_replacement = f'''#### 🔐 Authorization
+<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
+  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Authorization Screens</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+    <!-- No images yet - add images to images/Clients/Authorization/ -->
+  </div>
+</div>
+\\2'''
     content = re.sub(auth_pattern, auth_replacement, content, flags=re.DOTALL)
     
-    # Update Home section
+    # Update Home section - add border and title
     home_pattern = r'(#### 🏠 Home Screen\s*<div[^>]*>).*?(</div>\s*\n(?:####|###|##|#|$))'
     if home_images:
-        home_replacement = f'\\1\n{home_html}\n\\2'
+        home_replacement = f'''#### 🏠 Home Screen
+<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
+  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Home Screen</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+{home_html}
+  </div>
+</div>
+\\2'''
     else:
-        home_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/Home/ -->\n\\2'
+        home_replacement = f'''#### 🏠 Home Screen
+<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
+  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Home Screen</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+    <!-- No images yet - add images to images/Clients/Home/ -->
+  </div>
+</div>
+\\2'''
     content = re.sub(home_pattern, home_replacement, content, flags=re.DOTALL)
     
-    # Update Category Buttons section
+    # Update Category Buttons section - add border and title
     category_pattern = r'(#### 🎯 Category Buttons\s*<div[^>]*>).*?(</div>\s*\n(?:####|###|##|#|$))'
     if category_images:
-        category_replacement = f'\\1\n{category_html}\n\\2'
+        category_replacement = f'''#### 🎯 Category Buttons
+<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
+  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Category Buttons & Features</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+{category_html}
+  </div>
+</div>
+\\2'''
     else:
-        category_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/CategoryButtons/ -->\n\\2'
+        category_replacement = f'''#### 🎯 Category Buttons
+<div style="border: 2px solid #e0e0e0; border-radius: 10px; padding: 20px; margin: 20px 0; background-color: #fafafa;">
+  <h4 style="margin-top: 0; margin-bottom: 15px; color: #333; font-size: 18px; font-weight: 600;">Category Buttons & Features</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
+    <!-- No images yet - add images to images/Clients/CategoryButtons/ -->
+  </div>
+</div>
+\\2'''
     content = re.sub(category_pattern, category_replacement, content, flags=re.DOTALL)
     
     # Replace all grid/flex layouts with 4-column grid layout (only for image grid divs)
