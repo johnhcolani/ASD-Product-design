@@ -49,7 +49,6 @@ As a client, you can browse materials, get expert advice, create contracts, and 
   <img src="images/Clients/IMG_5066.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   <img src="images/Clients/IMG_5067.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   <img src="images/Clients/IMG_5068.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/Clients/IMG_5069.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   <img src="images/Clients/IMG_5070.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   <img src="images/Clients/IMG_5071.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   <img src="images/Clients/IMG_5072.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
@@ -57,6 +56,8 @@ As a client, you can browse materials, get expert advice, create contracts, and 
   <img src="images/Clients/IMG_5074.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   <img src="images/Clients/IMG_5075.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   <img src="images/Clients/IMG_5076.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5077.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5078.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </div>
 
 ### Key Features
