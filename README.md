@@ -33,23 +33,29 @@ As a client, you can browse materials, get expert advice, create contracts, and 
 #### 🔐 Authorization
 ## Authorization Screens
 
-<div style="display: flex; flex-direction: row; flex-wrap: nowrap; overflow-x: auto; gap: 20px; padding: 10px; border: 3px solid #333; border-radius: 8px; background-color: #f9f9f9;">
-  <div style="text-align: center; min-width: 200px;">
-    <img src="images/Clients/Authorization/Entry%20Screen.png" alt="Entry Screen" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Entry Screen</p>
-  </div>
-  <div style="text-align: center; min-width: 200px;">
-    <img src="images/Clients/Authorization/Forget%20Password.png" alt="Forget Password" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Forget Password</p>
-  </div>
-  <div style="text-align: center; min-width: 200px;">
-    <img src="images/Clients/Authorization/Login.png" alt="Login" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Login</p>
-  </div>
-  <div style="text-align: center; min-width: 200px;">
-    <img src="images/Clients/Authorization/SignUp.png" alt="Signup" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Signup</p>
-  </div>
+## Authorization Screens
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Authorization/Entry%20Screen.png" alt="Entry Screen" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Entry Screen</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Authorization/Forget%20Password.png" alt="Forget Password" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Forget Password</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Authorization/Login.png" alt="Login" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Login</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Authorization/SignUp.png" alt="Signup" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Signup</p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 #### 🏠 Home Screen
