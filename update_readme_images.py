@@ -6,21 +6,43 @@ This script scans the Clients subfolders and updates the README with the images.
 
 import re
 from pathlib import Path
+from urllib.parse import quote
 
-def get_images_from_folder(folder_path):
-    """Get all image files from a folder, sorted by name."""
+def get_images_from_folder(folder_path, include_subfolders=True):
+    """Get all image files from a folder and optionally subfolders, sorted by name."""
     if not folder_path.exists():
         return []
     
     images = []
+    
+    # Get images from the main folder
     for ext in ['.png', '.jpg', '.jpeg', '.PNG', '.JPG', '.JPEG']:
         images.extend(folder_path.glob(f'*{ext}'))
     
-    return sorted([img.name for img in images])
+    # Get images from subfolders if requested
+    if include_subfolders:
+        for subfolder in folder_path.iterdir():
+            if subfolder.is_dir():
+                for ext in ['.png', '.jpg', '.jpeg', '.PNG', '.JPG', '.JPEG']:
+                    images.extend(subfolder.glob(f'*{ext}'))
+    
+    # Return relative paths from the Clients folder, removing duplicates
+    result = []
+    seen = set()
+    clients_base = folder_path.parent
+    for img in sorted(images):
+        rel_path = str(img.relative_to(clients_base)).replace('\\', '/')
+        if rel_path not in seen:
+            seen.add(rel_path)
+            result.append(rel_path)
+    
+    return result
 
 def generate_image_html(image_path, alt_text, width=300):
-    """Generate HTML img tag for an image."""
-    return f'  <img src="{image_path}" alt="{alt_text}" width="{width}" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">'
+    """Generate HTML img tag for an image with proper URL encoding."""
+    # URL encode the path but keep slashes
+    encoded_path = '/'.join(quote(part, safe='') for part in image_path.split('/'))
+    return f'  <img src="images/Clients/{encoded_path}" alt="{alt_text}" width="{width}" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">'
 
 def update_readme():
     """Update README.md with images from organized folders."""
@@ -35,38 +57,38 @@ def update_readme():
     with open(readme_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Get images from each folder
+    # Get images from each folder (including subfolders)
     auth_images = get_images_from_folder(clients_base / 'Authorization')
     home_images = get_images_from_folder(clients_base / 'Home')
     category_images = get_images_from_folder(clients_base / 'CategoryButtons')
     
     # Generate HTML for each section
-    auth_html = '\n'.join([generate_image_html(f'images/Clients/Authorization/{img}', 'Client - Authorization') for img in auth_images])
-    home_html = '\n'.join([generate_image_html(f'images/Clients/Home/{img}', 'Client - Home Screen') for img in home_images])
-    category_html = '\n'.join([generate_image_html(f'images/Clients/CategoryButtons/{img}', 'Client - Category Buttons') for img in category_images])
+    auth_html = '\n'.join([generate_image_html(img, 'Client - Authorization') for img in auth_images])
+    home_html = '\n'.join([generate_image_html(img, 'Client - Home Screen') for img in home_images])
+    category_html = '\n'.join([generate_image_html(img, 'Client - Category Buttons') for img in category_images])
     
-    # Update Authorization section
-    auth_pattern = r'(#### 🔐 Authorization\s*<div[^>]*>)\s*<!--.*?-->\s*(</div>)'
+    # Update Authorization section - match everything between the div tags
+    auth_pattern = r'(#### 🔐 Authorization\s*<div[^>]*>)(.*?)(</div>)'
     if auth_images:
-        auth_replacement = f'\\1\n{auth_html}\n\\2'
+        auth_replacement = f'\\1\n{auth_html}\n\\3'
     else:
-        auth_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/Authorization/ -->\n\\2'
+        auth_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/Authorization/ -->\n\\3'
     content = re.sub(auth_pattern, auth_replacement, content, flags=re.DOTALL)
     
     # Update Home section
-    home_pattern = r'(#### 🏠 Home Screen\s*<div[^>]*>)\s*<!--.*?-->\s*(</div>)'
+    home_pattern = r'(#### 🏠 Home Screen\s*<div[^>]*>)(.*?)(</div>)'
     if home_images:
-        home_replacement = f'\\1\n{home_html}\n\\2'
+        home_replacement = f'\\1\n{home_html}\n\\3'
     else:
-        home_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/Home/ -->\n\\2'
+        home_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/Home/ -->\n\\3'
     content = re.sub(home_pattern, home_replacement, content, flags=re.DOTALL)
     
     # Update Category Buttons section
-    category_pattern = r'(#### 🎯 Category Buttons\s*<div[^>]*>)\s*<!--.*?-->\s*(</div>)'
+    category_pattern = r'(#### 🎯 Category Buttons\s*<div[^>]*>)(.*?)(</div>)'
     if category_images:
-        category_replacement = f'\\1\n{category_html}\n\\2'
+        category_replacement = f'\\1\n{category_html}\n\\3'
     else:
-        category_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/CategoryButtons/ -->\n\\2'
+        category_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/CategoryButtons/ -->\n\\3'
     content = re.sub(category_pattern, category_replacement, content, flags=re.DOTALL)
     
     # Write updated README

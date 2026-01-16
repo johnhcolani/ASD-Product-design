@@ -32,17 +32,37 @@ As a client, you can browse materials, get expert advice, create contracts, and 
 
 #### 🔐 Authorization
 <div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
-  <!-- No images yet - add images to images/Clients/Authorization/ -->
+  <img src="images/Clients/Authorization/Entry%20Screen.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/Authorization/Forget%20Password.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/Authorization/Login.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/Authorization/SignUp.png" alt="Client - Authorization" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </div>
 
 #### 🏠 Home Screen
 <div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
-  <!-- No images yet - add images to images/Clients/Home/ -->
+  <img src="images/Clients/Home/Bottom%20Nav/Google%20map.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/Home/Bottom%20Nav/Profile.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/Home/Bottom%20Nav/scrolled%20Home.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/Home/Bottom%20Nav/Search%20material.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/Home/Home.png" alt="Client - Home Screen" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </div>
 
 #### 🎯 Category Buttons
 <div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
-  <!-- No images yet - add images to images/Clients/CategoryButtons/ -->
+  <img src="images/Clients/CategoryButtons/Amy-%20Ai%20Assistant.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/CategoryButtons/Appointment.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/CategoryButtons/Book%20Appointment.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/CategoryButtons/Cart.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/CategoryButtons/Chat%20with%20SalesRep.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/CategoryButtons/Get%20Started.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/CategoryButtons/invoice%20content.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/CategoryButtons/invoice.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/CategoryButtons/My%20Project.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/CategoryButtons/New%20Contract.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/CategoryButtons/Pay%20Invoice.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/CategoryButtons/Project%20Tracker.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/CategoryButtons/SalesRep%20List.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/CategoryButtons/Schedule.png" alt="Client - Category Buttons" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </div>
 
 ### Key Features
