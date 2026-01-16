@@ -31,25 +31,24 @@ As a client, you can browse materials, get expert advice, create contracts, and 
 ### 📸 App Screenshots
 
 #### 🔐 Authorization
-<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
-  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Authorization Screens</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/Authorization/Entry%20Screen.png" alt="Client - Authorization" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
+## Authorization Screens
+
+<div style="display: flex; flex-direction: row; flex-wrap: nowrap; overflow-x: auto; gap: 20px; padding: 10px; border: 3px solid #333; border-radius: 8px; background-color: #f9f9f9;">
+  <div style="text-align: center; min-width: 200px;">
+    <img src="images/Clients/Authorization/Entry%20Screen.png" alt="Entry Screen" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Entry Screen</p>
   </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/Authorization/Forget%20Password.png" alt="Client - Authorization" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
+  <div style="text-align: center; min-width: 200px;">
+    <img src="images/Clients/Authorization/Forget%20Password.png" alt="Forget Password" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Forget Password</p>
   </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/Authorization/Login.png" alt="Client - Authorization" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
+  <div style="text-align: center; min-width: 200px;">
+    <img src="images/Clients/Authorization/Login.png" alt="Login" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Login</p>
   </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/Authorization/SignUp.png" alt="Client - Authorization" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
+  <div style="text-align: center; min-width: 200px;">
+    <img src="images/Clients/Authorization/SignUp.png" alt="Signup" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Signup</p>
-  </div>
   </div>
 </div>
 
