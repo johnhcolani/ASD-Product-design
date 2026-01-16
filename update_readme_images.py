@@ -38,11 +38,25 @@ def get_images_from_folder(folder_path, include_subfolders=True):
     
     return result
 
+def get_image_name(image_path):
+    """Extract a clean name from the image path."""
+    # Get the filename without extension
+    filename = Path(image_path).stem
+    # Replace hyphens and underscores with spaces, and clean up
+    name = filename.replace('-', ' ').replace('_', ' ')
+    # Capitalize first letter of each word
+    return ' '.join(word.capitalize() for word in name.split())
+
 def generate_image_html(image_path, alt_text, width=300):
-    """Generate HTML img tag for an image with proper URL encoding."""
+    """Generate HTML img tag with caption for an image."""
     # URL encode the path but keep slashes
     encoded_path = '/'.join(quote(part, safe='') for part in image_path.split('/'))
-    return f'  <img src="images/Clients/{encoded_path}" alt="{alt_text}" width="{width}" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">'
+    image_name = get_image_name(image_path)
+    
+    return f'''  <div style="text-align: center;">
+    <img src="images/Clients/{encoded_path}" alt="{alt_text}" width="{width}" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">{image_name}</p>
+  </div>'''
 
 def update_readme():
     """Update README.md with images from organized folders."""
