@@ -32,6 +32,31 @@ As a client, you can browse materials, get expert advice, create contracts, and 
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
   <img src="images/p01.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5049.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5050.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5051.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5052.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5053.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5054.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5055.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5059.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5060.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5061.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5062.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5063.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5064.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5065.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5066.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5067.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5068.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5069.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5070.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5071.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5072.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5073.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5074.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5075.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/Clients/IMG_5076.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </div>
 
 ### Key Features
