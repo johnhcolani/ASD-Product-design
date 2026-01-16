@@ -54,7 +54,7 @@ def generate_image_html(image_path, alt_text, width=300):
     image_name = get_image_name(image_path)
     
     return f'''  <div style="text-align: center;">
-    <img src="images/Clients/{encoded_path}" alt="{alt_text}" width="{width}" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <img src="images/Clients/{encoded_path}" alt="{alt_text}" width="{width}" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">{image_name}</p>
   </div>'''
 
@@ -104,6 +104,13 @@ def update_readme():
     else:
         category_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/CategoryButtons/ -->\n\\3'
     content = re.sub(category_pattern, category_replacement, content, flags=re.DOTALL)
+    
+    # Replace flexbox with CSS Grid for better grid layout
+    content = re.sub(
+        r'style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;"',
+        'style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;"',
+        content
+    )
     
     # Write updated README
     with open(readme_path, 'w', encoding='utf-8') as f:
