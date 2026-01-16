@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Script to automatically update README.md with images from organized folders.
-This script scans the Clients subfolders and updates the README with the images.
+This script scans the Clients subfolders and updates the README with the images using table format.
 """
 
 import re
@@ -47,16 +47,28 @@ def get_image_name(image_path):
     # Capitalize first letter of each word
     return ' '.join(word.capitalize() for word in name.split())
 
-def generate_image_html(image_path, alt_text, width=200):
-    """Generate HTML img tag with caption for an image."""
+def generate_image_td(image_path, width=200):
+    """Generate HTML table cell (td) with image and caption."""
     # URL encode the path but keep slashes
     encoded_path = '/'.join(quote(part, safe='') for part in image_path.split('/'))
     image_name = get_image_name(image_path)
     
-    return f'''  <div style="text-align: center; flex: 0 0 auto; width: {width}px;">
-    <img src="images/Clients/{encoded_path}" alt="{alt_text}" width="{width}" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: {width}px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">{image_name}</p>
-  </div>'''
+    return f'''      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/{encoded_path}" alt="{image_name}" width="{width}" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">{image_name}</p>
+      </td>'''
+
+def create_table_rows(images):
+    """Create table rows with 4 images per row."""
+    if not images:
+        return ''
+    
+    rows = []
+    for i in range(0, len(images), 4):
+        row_images = images[i:i+4]
+        tds = '\n'.join([generate_image_td(img) for img in row_images])
+        rows.append(f'    <tr>\n{tds}\n    </tr>')
+    return '\n'.join(rows)
 
 def update_readme():
     """Update README.md with images from organized folders."""
@@ -72,93 +84,116 @@ def update_readme():
         content = f.read()
     
     # Get images from each folder (including subfolders)
+    welcome_images = get_images_from_folder(clients_base / 'Welcome')
     auth_images = get_images_from_folder(clients_base / 'Authorization')
     home_images = get_images_from_folder(clients_base / 'Home')
     category_images = get_images_from_folder(clients_base / 'CategoryButtons')
     
-    # Generate HTML for each section
-    auth_html = '\n'.join([generate_image_html(img, 'Client - Authorization') for img in auth_images])
-    home_html = '\n'.join([generate_image_html(img, 'Client - Home Screen') for img in home_images])
-    category_html = '\n'.join([generate_image_html(img, 'Client - Category Buttons') for img in category_images])
+    # Generate table rows for each section (4 images per row)
+    welcome_html = create_table_rows(welcome_images)
+    auth_html = create_table_rows(auth_images)
+    home_html = create_table_rows(home_images)
+    category_html = create_table_rows(category_images)
     
-    # First, clean up any duplicate content that might exist
-    # Remove any orphaned divs after the main grid container closes
-    content = re.sub(r'(</div>\s*\n)(\s*<div style="text-align: center;">.*?</div>\s*\n)+', r'\1', content, flags=re.DOTALL)
+    # Update Welcome section - add before Authorization if it exists
+    welcome_pattern = r'(## Welcome Screens\s*<div[^>]*>).*?(</div>\s*\n(?:##|###|####|#|$))'
+    if welcome_images:
+        welcome_replacement = f'''## Welcome Screens
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+{welcome_html}
+  </table>
+</div>
+\\2'''
+        if re.search(welcome_pattern, content, flags=re.DOTALL):
+            content = re.sub(welcome_pattern, welcome_replacement, content, flags=re.DOTALL)
+        else:
+            # Insert Welcome section before Authorization
+            auth_match = re.search(r'(### 📸 App Screenshots\s*\n)', content)
+            if auth_match:
+                insert_pos = auth_match.end()
+                welcome_section = f'''### 📸 App Screenshots
+
+## Welcome Screens
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+{welcome_html}
+  </table>
+</div>
+
+'''
+                content = content[:insert_pos] + welcome_section + content[insert_pos:]
     
-    # Update Authorization section - add border and title with flexbox for better GitHub compatibility
-    auth_pattern = r'(#### 🔐 Authorization\s*<div[^>]*>).*?(</div>\s*\n(?:####|###|##|#|$))'
+    # Update Authorization section - use table format
+    auth_pattern = r'(## Authorization Screens\s*<div[^>]*>).*?(</div>\s*\n(?:##|###|####|#|$))'
     if auth_images:
-        auth_replacement = f'''#### 🔐 Authorization
-<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
-  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Authorization Screens</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
+        auth_replacement = f'''## Authorization Screens
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
 {auth_html}
-  </div>
+  </table>
 </div>
 \\2'''
     else:
-        auth_replacement = f'''#### 🔐 Authorization
-<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
-  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Authorization Screens</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
+        auth_replacement = f'''## Authorization Screens
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
     <!-- No images yet - add images to images/Clients/Authorization/ -->
-  </div>
+  </table>
 </div>
 \\2'''
     content = re.sub(auth_pattern, auth_replacement, content, flags=re.DOTALL)
     
-    # Update Home section - add border and title with flexbox
-    home_pattern = r'(#### 🏠 Home Screen\s*<div[^>]*>).*?(</div>\s*\n(?:####|###|##|#|$))'
+    # Update Home section - use table format
+    home_pattern = r'(## Home Screen\s*<div[^>]*>).*?(</div>\s*\n(?:##|###|####|#|$))'
     if home_images:
-        home_replacement = f'''#### 🏠 Home Screen
-<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
-  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Home Screen</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
+        home_replacement = f'''## Home Screen
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table style="white-space: nowrap;">
 {home_html}
-  </div>
+  </table>
 </div>
 \\2'''
     else:
-        home_replacement = f'''#### 🏠 Home Screen
-<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
-  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Home Screen</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
+        home_replacement = f'''## Home Screen
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
     <!-- No images yet - add images to images/Clients/Home/ -->
-  </div>
+  </table>
 </div>
 \\2'''
     content = re.sub(home_pattern, home_replacement, content, flags=re.DOTALL)
     
-    # Update Category Buttons section - add border and title with flexbox
-    category_pattern = r'(#### 🎯 Category Buttons\s*<div[^>]*>).*?(</div>\s*\n(?:####|###|##|#|$))'
+    # Update Category Buttons section - use table format
+    category_pattern = r'(## Category Buttons & Features\s*<div[^>]*>).*?(</div>\s*\n(?:##|###|####|#|$))'
     if category_images:
-        category_replacement = f'''#### 🎯 Category Buttons
-<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
-  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Category Buttons & Features</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
+        category_replacement = f'''## Category Buttons & Features
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table style="white-space: nowrap;">
 {category_html}
-  </div>
+  </table>
 </div>
 \\2'''
     else:
-        category_replacement = f'''#### 🎯 Category Buttons
-<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
-  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Category Buttons & Features</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
+        category_replacement = f'''## Category Buttons & Features
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
     <!-- No images yet - add images to images/Clients/CategoryButtons/ -->
-  </div>
+  </table>
 </div>
 \\2'''
     content = re.sub(category_pattern, category_replacement, content, flags=re.DOTALL)
     
-    # Replace all grid/flex layouts with 4-column grid layout (only for image grid divs)
-    content = re.sub(
-        r'(#### (🔐|🏠|🎯)[^\n]*\n<div style=")display: (flex|grid)[^"]*(">)',
-        r'\1display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;\4',
-        content
-    )
-    
-    # Also add responsive breakpoints for smaller screens (optional - can be added via CSS media queries in a style tag if needed)
+    # Remove old duplicate headers (#### format)
+    content = re.sub(r'#### (🔐|🏠|🎯)[^\n]*\n## ', r'## ', content)
     
     # Write updated README
     with open(readme_path, 'w', encoding='utf-8') as f:
@@ -168,10 +203,11 @@ def update_readme():
     print("=" * 60)
     print("README Updated Successfully!")
     print("=" * 60)
+    print(f"Welcome images: {len(welcome_images)}")
     print(f"Authorization images: {len(auth_images)}")
     print(f"Home Screen images: {len(home_images)}")
     print(f"Category Buttons images: {len(category_images)}")
-    print(f"\nTotal images added: {len(auth_images) + len(home_images) + len(category_images)}")
+    print(f"\nTotal images added: {len(welcome_images) + len(auth_images) + len(home_images) + len(category_images)}")
 
 if __name__ == '__main__':
     update_readme()

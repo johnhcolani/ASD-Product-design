@@ -30,8 +30,26 @@ As a client, you can browse materials, get expert advice, create contracts, and 
 
 ### 📸 App Screenshots
 
-#### 🔐 Authorization
-## Authorization Screens
+## Welcome Screens
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Welcome/Welcome%2001.png" alt="Welcome 01" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Welcome 01</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Welcome/Welcome%2002.png" alt="Welcome 02" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Welcome 02</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Welcome/Welcome%2003.png" alt="Welcome 03" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Welcome 03</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## Authorization Screens
 
@@ -57,8 +75,8 @@ As a client, you can browse materials, get expert advice, create contracts, and 
     </tr>
   </table>
 </div>
+</div>
 
-#### 🏠 Home Screen
 ## Home Screen
 
 <div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
@@ -80,6 +98,8 @@ As a client, you can browse materials, get expert advice, create contracts, and 
         <img src="images/Clients/Home/Bottom%20Nav/Search%20material.png" alt="Search Material" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
         <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Search Material</p>
       </td>
+    </tr>
+    <tr>
       <td style="text-align: center; padding: 10px;">
         <img src="images/Clients/Home/Home.png" alt="Home" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
         <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home</p>
@@ -87,7 +107,7 @@ As a client, you can browse materials, get expert advice, create contracts, and 
     </tr>
   </table>
 </div>
-#### 🎯 Category Buttons
+</div>
 ## Category Buttons & Features
 
 <div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
@@ -157,6 +177,7 @@ As a client, you can browse materials, get expert advice, create contracts, and 
       </td>
     </tr>
   </table>
+</div>
 </div>
 
 ### Key Features
