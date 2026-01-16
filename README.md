@@ -59,95 +59,104 @@ As a client, you can browse materials, get expert advice, create contracts, and 
 </div>
 
 #### 🏠 Home Screen
-<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
-  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Home Screen</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/Home/Bottom%20Nav/Google%20map.png" alt="Client - Home Screen" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Google Map</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/Home/Bottom%20Nav/Profile.png" alt="Client - Home Screen" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Profile</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/Home/Bottom%20Nav/scrolled%20Home.png" alt="Client - Home Screen" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Scrolled Home</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/Home/Bottom%20Nav/Search%20material.png" alt="Client - Home Screen" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Search Material</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/Home/Home.png" alt="Client - Home Screen" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home</p>
-  </div>
-  </div>
-</div>
-</div>
+## Home Screen
 
-#### 🎯 Category Buttons
-<div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
-  <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Category Buttons & Features</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/Amy-%20Ai%20Assistant.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Amy Ai Assistant</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/Appointment.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Appointment</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/Book%20Appointment.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Book Appointment</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/Cart.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Cart</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/Chat%20with%20SalesRep.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Chat With Salesrep</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/Get%20Started.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Get Started</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/invoice%20content.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Invoice Content</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/invoice.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Invoice</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/My%20Project.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">My Project</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/New%20Contract.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">New Contract</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/Pay%20Invoice.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Pay Invoice</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/Project%20Tracker.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Project Tracker</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/SalesRep%20List.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Salesrep List</p>
-  </div>
-  <div style="text-align: center; flex: 0 0 auto; width: 200px;">
-    <img src="images/Clients/CategoryButtons/Schedule.png" alt="Client - Category Buttons" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 200px; height: auto;">
-    <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Schedule</p>
-  </div>
-  </div>
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table style="white-space: nowrap;">
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Home/Bottom%20Nav/Google%20map.png" alt="Google Map" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Google Map</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Home/Bottom%20Nav/Profile.png" alt="Profile" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Profile</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Home/Bottom%20Nav/scrolled%20Home.png" alt="Scrolled Home" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Scrolled Home</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Home/Bottom%20Nav/Search%20material.png" alt="Search Material" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Search Material</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Home/Home.png" alt="Home" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home</p>
+      </td>
+    </tr>
+  </table>
 </div>
+#### 🎯 Category Buttons
+## Category Buttons & Features
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table style="white-space: nowrap;">
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/Amy-%20Ai%20Assistant.png" alt="Amy Ai Assistant" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Amy Ai Assistant</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/Appointment.png" alt="Appointment" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Appointment</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/Book%20Appointment.png" alt="Book Appointment" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Book Appointment</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/Cart.png" alt="Cart" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Cart</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/Chat%20with%20SalesRep.png" alt="Chat With Salesrep" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Chat With Salesrep</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/Get%20Started.png" alt="Get Started" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Get Started</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/invoice%20content.png" alt="Invoice Content" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Invoice Content</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/invoice.png" alt="Invoice" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Invoice</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/My%20Project.png" alt="My Project" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">My Project</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/New%20Contract.png" alt="New Contract" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">New Contract</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/Pay%20Invoice.png" alt="Pay Invoice" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Pay Invoice</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/Project%20Tracker.png" alt="Project Tracker" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Project Tracker</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/SalesRep%20List.png" alt="Salesrep List" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Salesrep List</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/CategoryButtons/Schedule.png" alt="Schedule" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Schedule</p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ### Key Features
