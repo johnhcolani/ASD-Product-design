@@ -81,36 +81,42 @@ def update_readme():
     home_html = '\n'.join([generate_image_html(img, 'Client - Home Screen') for img in home_images])
     category_html = '\n'.join([generate_image_html(img, 'Client - Category Buttons') for img in category_images])
     
-    # Update Authorization section - match everything between the div tags
-    auth_pattern = r'(#### 🔐 Authorization\s*<div[^>]*>)(.*?)(</div>)'
+    # First, clean up any duplicate content that might exist
+    # Remove any orphaned divs after the main grid container closes
+    content = re.sub(r'(</div>\s*\n)(\s*<div style="text-align: center;">.*?</div>\s*\n)+', r'\1', content, flags=re.DOTALL)
+    
+    # Update Authorization section - match from header to closing grid div
+    auth_pattern = r'(#### 🔐 Authorization\s*<div[^>]*>).*?(</div>\s*\n(?:####|###|##|#|$))'
     if auth_images:
-        auth_replacement = f'\\1\n{auth_html}\n\\3'
+        auth_replacement = f'\\1\n{auth_html}\n\\2'
     else:
-        auth_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/Authorization/ -->\n\\3'
+        auth_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/Authorization/ -->\n\\2'
     content = re.sub(auth_pattern, auth_replacement, content, flags=re.DOTALL)
     
     # Update Home section
-    home_pattern = r'(#### 🏠 Home Screen\s*<div[^>]*>)(.*?)(</div>)'
+    home_pattern = r'(#### 🏠 Home Screen\s*<div[^>]*>).*?(</div>\s*\n(?:####|###|##|#|$))'
     if home_images:
-        home_replacement = f'\\1\n{home_html}\n\\3'
+        home_replacement = f'\\1\n{home_html}\n\\2'
     else:
-        home_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/Home/ -->\n\\3'
+        home_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/Home/ -->\n\\2'
     content = re.sub(home_pattern, home_replacement, content, flags=re.DOTALL)
     
     # Update Category Buttons section
-    category_pattern = r'(#### 🎯 Category Buttons\s*<div[^>]*>)(.*?)(</div>)'
+    category_pattern = r'(#### 🎯 Category Buttons\s*<div[^>]*>).*?(</div>\s*\n(?:####|###|##|#|$))'
     if category_images:
-        category_replacement = f'\\1\n{category_html}\n\\3'
+        category_replacement = f'\\1\n{category_html}\n\\2'
     else:
-        category_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/CategoryButtons/ -->\n\\3'
+        category_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/CategoryButtons/ -->\n\\2'
     content = re.sub(category_pattern, category_replacement, content, flags=re.DOTALL)
     
-    # Replace flexbox with CSS Grid for better grid layout
+    # Replace all grid/flex layouts with 4-column grid layout (only for image grid divs)
     content = re.sub(
-        r'style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;"',
-        'style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;"',
+        r'(#### (🔐|🏠|🎯)[^\n]*\n<div style=")display: (flex|grid)[^"]*(">)',
+        r'\1display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;\4',
         content
     )
+    
+    # Also add responsive breakpoints for smaller screens (optional - can be added via CSS media queries in a style tag if needed)
     
     # Write updated README
     with open(readme_path, 'w', encoding='utf-8') as f:
