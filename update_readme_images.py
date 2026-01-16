@@ -47,14 +47,14 @@ def get_image_name(image_path):
     # Capitalize first letter of each word
     return ' '.join(word.capitalize() for word in name.split())
 
-def generate_image_html(image_path, alt_text, width=300):
+def generate_image_html(image_path, alt_text, width=200):
     """Generate HTML img tag with caption for an image."""
     # URL encode the path but keep slashes
     encoded_path = '/'.join(quote(part, safe='') for part in image_path.split('/'))
     image_name = get_image_name(image_path)
     
-    return f'''  <div style="text-align: center; flex: 0 0 calc(25% - 15px); min-width: 280px; max-width: 300px;">
-    <img src="images/Clients/{encoded_path}" alt="{alt_text}" width="{width}" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: 100%; max-width: {width}px;">
+    return f'''  <div style="text-align: center; flex: 0 0 auto; width: {width}px;">
+    <img src="images/Clients/{encoded_path}" alt="{alt_text}" width="{width}" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto; width: {width}px; height: auto;">
     <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">{image_name}</p>
   </div>'''
 
@@ -91,7 +91,7 @@ def update_readme():
         auth_replacement = f'''#### 🔐 Authorization
 <div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
   <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Authorization Screens</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
 {auth_html}
   </div>
 </div>
@@ -100,7 +100,7 @@ def update_readme():
         auth_replacement = f'''#### 🔐 Authorization
 <div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
   <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Authorization Screens</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
     <!-- No images yet - add images to images/Clients/Authorization/ -->
   </div>
 </div>
@@ -113,7 +113,7 @@ def update_readme():
         home_replacement = f'''#### 🏠 Home Screen
 <div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
   <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Home Screen</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
 {home_html}
   </div>
 </div>
@@ -122,7 +122,7 @@ def update_readme():
         home_replacement = f'''#### 🏠 Home Screen
 <div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
   <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Home Screen</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
     <!-- No images yet - add images to images/Clients/Home/ -->
   </div>
 </div>
@@ -135,7 +135,7 @@ def update_readme():
         category_replacement = f'''#### 🎯 Category Buttons
 <div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
   <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Category Buttons & Features</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
 {category_html}
   </div>
 </div>
@@ -144,7 +144,7 @@ def update_readme():
         category_replacement = f'''#### 🎯 Category Buttons
 <div style="border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
   <h4 style="margin-top: 0; margin-bottom: 20px; color: #333; font-size: 20px; font-weight: 700; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Category Buttons & Features</h4>
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start; align-items: flex-start;">
     <!-- No images yet - add images to images/Clients/CategoryButtons/ -->
   </div>
 </div>
