@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+"""
+Script to automatically update README.md with images from organized folders.
+This script scans the Clients subfolders and updates the README with the images.
+"""
+
+import re
+from pathlib import Path
+
+def get_images_from_folder(folder_path):
+    """Get all image files from a folder, sorted by name."""
+    if not folder_path.exists():
+        return []
+    
+    images = []
+    for ext in ['.png', '.jpg', '.jpeg', '.PNG', '.JPG', '.JPEG']:
+        images.extend(folder_path.glob(f'*{ext}'))
+    
+    return sorted([img.name for img in images])
+
+def generate_image_html(image_path, alt_text, width=300):
+    """Generate HTML img tag for an image."""
+    return f'  <img src="{image_path}" alt="{alt_text}" width="{width}" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">'
+
+def update_readme():
+    """Update README.md with images from organized folders."""
+    readme_path = Path('README.md')
+    clients_base = Path('images/Clients')
+    
+    if not readme_path.exists():
+        print("Error: README.md not found!")
+        return
+    
+    # Read README
+    with open(readme_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Get images from each folder
+    auth_images = get_images_from_folder(clients_base / 'Authorization')
+    home_images = get_images_from_folder(clients_base / 'Home')
+    category_images = get_images_from_folder(clients_base / 'CategoryButtons')
+    
+    # Generate HTML for each section
+    auth_html = '\n'.join([generate_image_html(f'images/Clients/Authorization/{img}', 'Client - Authorization') for img in auth_images])
+    home_html = '\n'.join([generate_image_html(f'images/Clients/Home/{img}', 'Client - Home Screen') for img in home_images])
+    category_html = '\n'.join([generate_image_html(f'images/Clients/CategoryButtons/{img}', 'Client - Category Buttons') for img in category_images])
+    
+    # Update Authorization section
+    auth_pattern = r'(#### 🔐 Authorization\s*<div[^>]*>)\s*<!--.*?-->\s*(</div>)'
+    if auth_images:
+        auth_replacement = f'\\1\n{auth_html}\n\\2'
+    else:
+        auth_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/Authorization/ -->\n\\2'
+    content = re.sub(auth_pattern, auth_replacement, content, flags=re.DOTALL)
+    
+    # Update Home section
+    home_pattern = r'(#### 🏠 Home Screen\s*<div[^>]*>)\s*<!--.*?-->\s*(</div>)'
+    if home_images:
+        home_replacement = f'\\1\n{home_html}\n\\2'
+    else:
+        home_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/Home/ -->\n\\2'
+    content = re.sub(home_pattern, home_replacement, content, flags=re.DOTALL)
+    
+    # Update Category Buttons section
+    category_pattern = r'(#### 🎯 Category Buttons\s*<div[^>]*>)\s*<!--.*?-->\s*(</div>)'
+    if category_images:
+        category_replacement = f'\\1\n{category_html}\n\\2'
+    else:
+        category_replacement = f'\\1\n  <!-- No images yet - add images to images/Clients/CategoryButtons/ -->\n\\2'
+    content = re.sub(category_pattern, category_replacement, content, flags=re.DOTALL)
+    
+    # Write updated README
+    with open(readme_path, 'w', encoding='utf-8') as f:
+        f.write(content)
+    
+    # Print summary
+    print("=" * 60)
+    print("README Updated Successfully!")
+    print("=" * 60)
+    print(f"Authorization images: {len(auth_images)}")
+    print(f"Home Screen images: {len(home_images)}")
+    print(f"Category Buttons images: {len(category_images)}")
+    print(f"\nTotal images added: {len(auth_images) + len(home_images) + len(category_images)}")
+
+if __name__ == '__main__':
+    update_readme()
