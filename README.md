@@ -31,11 +31,7 @@ As a client, you can browse materials, get expert advice, create contracts, and 
 ### 📸 App Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
-  <img src="images/client-1.png" alt="Client - Browse Materials" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/client-2.png" alt="Client - Chat with Sales" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/client-3.png" alt="Client - Amy AI Assistant" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/client-4.png" alt="Client - Contracts" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/client-5.png" alt="Client - Installation Tracking" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/p01.png" alt="Client - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </div>
 
 ### Key Features
@@ -88,10 +84,7 @@ Manage your clients, track projects, and grow your sales with comprehensive tool
 ### 📸 App Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
-  <img src="images/sales-1.png" alt="Sales - Dashboard" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/sales-2.png" alt="Sales - Client Management" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/sales-3.png" alt="Sales - Chat Inbox" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/sales-4.png" alt="Sales - Analytics" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/p06.png" alt="Sales Representative - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </div>
 
 ### Key Features
@@ -138,10 +131,7 @@ Manage your jobs, update status, upload photos, and keep clients informed.
 ### 📸 App Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
-  <img src="images/installer-1.png" alt="Installer - Job Management" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/installer-2.png" alt="Installer - Location Tracking" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/installer-3.png" alt="Installer - Photo Albums" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/installer-4.png" alt="Installer - Availability Status" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/p07.png" alt="Installer - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </div>
 
 ### Key Features
@@ -185,10 +175,8 @@ Manage calendar events, coordinate appointments, and keep everything organized.
 ### 📸 App Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
-  <img src="images/scheduler-1.png" alt="Scheduler - Calendar Dashboard" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/scheduler-2.png" alt="Scheduler - Create Events" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/scheduler-3.png" alt="Scheduler - Event Management" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/scheduler-4.png" alt="Scheduler - Google Calendar Sync" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/p08.png" alt="Scheduler - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/p08 (1).png" alt="Scheduler - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </div>
 
 ### Key Features
@@ -233,11 +221,7 @@ Manage the entire platform, users, content, and monitor system performance.
 ### 📸 App Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
-  <img src="images/admin-1.png" alt="Admin - User Management" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/admin-2.png" alt="Admin - Analytics Dashboard" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/admin-3.png" alt="Admin - Amy AI Management" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/admin-4.png" alt="Admin - Content Management" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/admin-5.png" alt="Admin - Advanced Features" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="images/p09.png" alt="Administrator - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </div>
 
 ### Key Features
