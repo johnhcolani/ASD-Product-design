@@ -4,6 +4,200 @@ Comprehensive design system documentation for iOS, Android, and Web platforms.
 
 ---
 
+## 🎨 Visual Showcase
+
+### Complete Color Palette
+
+<div style="background: #F5F5F5; padding: 32px; border-radius: 12px; margin: 24px 0;">
+
+<h3 style="margin-top: 0; color: #000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Primary Colors</h3>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px;">
+
+<div style="background: #1E3A5F; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">Primary Blue</div>
+  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#1E3A5F</div>
+  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Primary buttons<br/>Branding elements</div>
+</div>
+
+<div style="background: #0D1B2A; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">Dark Background</div>
+  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#0D1B2A</div>
+  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Main background<br/>Dark screens</div>
+</div>
+
+<div style="background: #FFFFFF; border: 2px solid #E0E0E0; border-radius: 8px; padding: 20px; color: #000000; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">White</div>
+  <div style="font-size: 16px; font-family: monospace; color: #666;">#FFFFFF</div>
+  <div style="font-size: 14px; margin-top: 12px; color: #666;">Text, inputs<br/>Social buttons</div>
+</div>
+
+</div>
+
+<h3 style="color: #000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Text Colors</h3>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px;">
+
+<div style="background: #0D1B2A; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">Primary Text</div>
+  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#FFFFFF</div>
+  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Labels, headings<br/>Body text on dark</div>
+</div>
+
+<div style="background: #FFFFFF; border: 2px solid #E0E0E0; border-radius: 8px; padding: 20px; color: #000000; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">Dark Text</div>
+  <div style="font-size: 16px; font-family: monospace; color: #666;">#000000</div>
+  <div style="font-size: 14px; margin-top: 12px; color: #666;">Text on light bg<br/>Input text</div>
+</div>
+
+<div style="background: #FFFFFF; border: 2px solid #E0E0E0; border-radius: 8px; padding: 20px; color: #999999; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 400; margin-bottom: 8px; font-style: italic;">Placeholder</div>
+  <div style="font-size: 16px; font-family: monospace; color: #666;">#999999</div>
+  <div style="font-size: 14px; margin-top: 12px; color: #666;">Placeholder text<br/>In inputs</div>
+</div>
+
+<div style="background: #FFFFFF; border: 2px solid #FF6B6B; border-radius: 8px; padding: 20px; color: #FF6B6B; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">Error</div>
+  <div style="font-size: 16px; font-family: monospace;">#FF6B6B</div>
+  <div style="font-size: 14px; margin-top: 12px;">Error messages<br/>Error borders</div>
+</div>
+
+</div>
+
+<h3 style="color: #000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Status Colors</h3>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px;">
+
+<div style="background: #4CAF50; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">✅ Success</div>
+  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#4CAF50</div>
+  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Success messages<br/>Positive actions</div>
+</div>
+
+<div style="background: #FF6B6B; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">❌ Error</div>
+  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#FF6B6B</div>
+  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Errors, warnings<br/>Critical messages</div>
+</div>
+
+<div style="background: #FFA500; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">⚠️ Warning</div>
+  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#FFA500</div>
+  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Warning messages<br/>Caution notices</div>
+</div>
+
+<div style="background: #2196F3; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">ℹ️ Info</div>
+  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#2196F3</div>
+  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Informational messages<br/>Helpful tips</div>
+</div>
+
+</div>
+
+<h3 style="color: #000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Neutral Colors</h3>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px;">
+
+<div style="background: #F5F5F5; border: 1px solid #E0E0E0; border-radius: 8px; padding: 20px; color: #333333; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">Light Gray</div>
+  <div style="font-size: 16px; font-family: monospace; color: #666;">#F5F5F5</div>
+  <div style="font-size: 14px; margin-top: 12px; color: #666;">Secondary bg<br/>Cards</div>
+</div>
+
+<div style="background: #E0E0E0; border: 1px solid #CCCCCC; border-radius: 8px; padding: 20px; color: #333333; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">Border Gray</div>
+  <div style="font-size: 16px; font-family: monospace; color: #666;">#E0E0E0</div>
+  <div style="font-size: 14px; margin-top: 12px; color: #666;">Borders<br/>Dividers</div>
+</div>
+
+<div style="background: #CCCCCC; border: 1px solid #E0E0E0; border-radius: 8px; padding: 20px; color: #666666; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <div style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">Disabled</div>
+  <div style="font-size: 16px; font-family: monospace;">#CCCCCC</div>
+  <div style="font-size: 14px; margin-top: 12px;">Disabled elements<br/>Inactive states</div>
+</div>
+
+</div>
+
+</div>
+
+### Typography in Action
+
+<div style="background: #FFFFFF; border: 1px solid #E0E0E0; border-radius: 12px; padding: 32px; margin: 24px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 32px; font-weight: 700; line-height: 40px; color: #000000; margin-bottom: 8px; border-bottom: 2px solid #E0E0E0; padding-bottom: 16px;">
+Heading 1 - Main Screen Title
+</div>
+<div style="font-family: monospace; font-size: 14px; color: #666; margin-bottom: 24px;">32px / 2rem • Bold (700) • Line Height: 40px</div>
+
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 24px; font-weight: 600; line-height: 32px; color: #000000; margin-bottom: 8px; border-bottom: 1px solid #E0E0E0; padding-bottom: 16px;">
+Heading 2 - Section Heading
+</div>
+<div style="font-family: monospace; font-size: 14px; color: #666; margin-bottom: 24px;">24px / 1.5rem • Semi-Bold (600) • Line Height: 32px</div>
+
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; font-weight: 600; line-height: 28px; color: #000000; margin-bottom: 8px; border-bottom: 1px solid #E0E0E0; padding-bottom: 16px;">
+Heading 3 - Subsection Title
+</div>
+<div style="font-family: monospace; font-size: 14px; color: #666; margin-bottom: 24px;">20px / 1.25rem • Semi-Bold (600) • Line Height: 28px</div>
+
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; color: #000000; margin-bottom: 8px; border-bottom: 1px solid #E0E0E0; padding-bottom: 16px;">
+Body Large - The quick brown fox jumps over the lazy dog. This is body text used for input fields and main content areas. It provides excellent readability for longer paragraphs.
+</div>
+<div style="font-family: monospace; font-size: 14px; color: #666; margin-bottom: 24px;">16px / 1rem • Regular (400) • Line Height: 24px</div>
+
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 400; line-height: 20px; color: #000000; margin-bottom: 8px; border-bottom: 1px solid #E0E0E0; padding-bottom: 16px;">
+Body - The quick brown fox jumps over the lazy dog. This is regular body text for labels and secondary content. Perfect for descriptions and supporting information.
+</div>
+<div style="font-family: monospace; font-size: 14px; color: #666; margin-bottom: 24px;">14px / 0.875rem • Regular (400) • Line Height: 20px</div>
+
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 500; line-height: 20px; color: #FFFFFF; text-transform: uppercase; background: #1E3A5F; padding: 8px 16px; border-radius: 4px; display: inline-block; margin-bottom: 8px;">
+LABEL - UPPERCASE TEXT
+</div>
+<div style="font-family: monospace; font-size: 14px; color: #666; margin-bottom: 24px;">14px • Medium (500) • Uppercase • White on Dark Blue</div>
+
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 400; line-height: 16px; color: #FF6B6B; margin-bottom: 0;">
+Error Text - This is an example of error message text
+</div>
+<div style="font-family: monospace; font-size: 14px; color: #666; margin-bottom: 0;">12px / 0.75rem • Regular (400) • Error Red (#FF6B6B)</div>
+
+</div>
+
+### Complete Component Showcase
+
+<div style="background: #0D1B2A; padding: 32px; border-radius: 12px; margin: 24px 0;">
+
+<h3 style="margin-top: 0; color: #FFFFFF; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Live Component Examples</h3>
+
+<div style="margin-bottom: 24px;">
+  <label style="display: block; color: #FFFFFF; font-size: 14px; font-weight: 500; text-transform: uppercase; margin-bottom: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">EMAIL</label>
+  <div style="display: flex; align-items: center; background: #FFFFFF; border-radius: 12px; height: 56px; padding: 0 16px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <span style="color: #000000; margin-right: 12px; font-size: 20px; font-family: 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif;">📧</span>
+    <input type="text" placeholder="Email" value="user@example.com" style="flex: 1; border: none; outline: none; font-size: 16px; color: #000000; background: transparent; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 0;" />
+  </div>
+  <div style="color: #999; font-size: 12px; margin-top: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">TextField with icon</div>
+</div>
+
+<div style="margin-bottom: 24px;">
+  <button style="width: 100%; height: 56px; background-color: #1E3A5F; border: 1px solid #FFFFFF; border-radius: 12px; color: #FFFFFF; font-size: 16px; font-weight: 600; text-transform: uppercase; text-decoration: underline; cursor: pointer; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+    LOGIN
+  </button>
+  <div style="color: #999; font-size: 12px; margin-top: 8px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Primary Button - Full Width</div>
+</div>
+
+<div style="display: flex; gap: 16px; justify-content: center; align-items: center; flex-wrap: wrap;">
+  <div style="text-align: center;">
+    <button style="width: 56px; height: 56px; background-color: #FFFFFF; border: 1px solid #E0E0E0; border-radius: 12px; color: #000000; font-size: 20px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">G</button>
+    <div style="color: #999; font-size: 12px; margin-top: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Google</div>
+  </div>
+  <div style="text-align: center;">
+    <button style="width: 56px; height: 56px; background-color: #FFFFFF; border: 1px solid #E0E0E0; border-radius: 12px; color: #000000; font-size: 20px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">🍎</button>
+    <div style="color: #999; font-size: 12px; margin-top: 8px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Apple</div>
+  </div>
+</div>
+
+</div>
+
+---
+
 ## 🎨 Colors
 
 ### Primary Colors
