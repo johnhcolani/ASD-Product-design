@@ -83,6 +83,38 @@ Comprehensive design system documentation for iOS, Android, and Web platforms.
     color: #FFFFFF;
   }
   
+  .color-box-red-50 {
+    background: #FFEBEE;
+    color: #000000;
+    border: 1px solid #E0E0E0;
+  }
+  
+  .color-box-red-100 {
+    background: #FFCDD2;
+    color: #000000;
+    border: 1px solid #E0E0E0;
+  }
+  
+  .color-box-red-300 {
+    background: #E57373;
+    color: #FFFFFF;
+  }
+  
+  .color-box-red-400 {
+    background: #EF5350;
+    color: #FFFFFF;
+  }
+  
+  .color-box-red-600 {
+    background: #E53935;
+    color: #FFFFFF;
+  }
+  
+  .color-box-red-700 {
+    background: #D32F2F;
+    color: #FFFFFF;
+  }
+  
   .color-title {
     font-size: 24px;
     font-weight: 700;
@@ -221,6 +253,48 @@ Comprehensive design system documentation for iOS, Android, and Web platforms.
   <div class="color-title" style="font-weight: 600;">Disabled</div>
   <div class="color-hex">#CCCCCC</div>
   <div class="color-description">Disabled elements<br/>Inactive states</div>
+</div>
+
+</div>
+
+<h3 class="section-title">Red Scale (Errors, Delete Actions)</h3>
+
+<div class="color-grid">
+
+<div class="color-box color-box-red-50">
+  <div class="color-title" style="font-weight: 600;">Red 50</div>
+  <div class="color-hex color-description-dark">#FFEBEE</div>
+  <div class="color-description color-description-dark" style="margin-top: 8px;">RGB(255, 235, 238)<br/>Very light red<br/>Error backgrounds</div>
+</div>
+
+<div class="color-box color-box-red-100">
+  <div class="color-title" style="font-weight: 600;">Red 100</div>
+  <div class="color-hex color-description-dark">#FFCDD2</div>
+  <div class="color-description color-description-dark" style="margin-top: 8px;">RGB(255, 205, 210)<br/>Light red<br/>Subtle backgrounds</div>
+</div>
+
+<div class="color-box color-box-red-300">
+  <div class="color-title" style="font-weight: 600;">Red 300</div>
+  <div class="color-hex" style="opacity: 0.9;">#E57373</div>
+  <div class="color-description color-description-white" style="margin-top: 8px;">RGB(229, 115, 115)<br/>Light red<br/>Error icons</div>
+</div>
+
+<div class="color-box color-box-red-400">
+  <div class="color-title" style="font-weight: 600;">Red 400</div>
+  <div class="color-hex" style="opacity: 0.9;">#EF5350</div>
+  <div class="color-description color-description-white" style="margin-top: 8px;">RGB(239, 83, 80)<br/>Medium red<br/>Error text</div>
+</div>
+
+<div class="color-box color-box-red-600">
+  <div class="color-title" style="font-weight: 600;">Red 600</div>
+  <div class="color-hex" style="opacity: 0.9;">#E53935</div>
+  <div class="color-description color-description-white" style="margin-top: 8px;">RGB(229, 57, 53)<br/>Dark red<br/>Error buttons, delete</div>
+</div>
+
+<div class="color-box color-box-red-700">
+  <div class="color-title" style="font-weight: 600;">Red 700</div>
+  <div class="color-hex" style="opacity: 0.9;">#D32F2F</div>
+  <div class="color-description color-description-white" style="margin-top: 8px;">RGB(211, 47, 47)<br/>Darker red<br/>Critical errors</div>
 </div>
 
 </div>
