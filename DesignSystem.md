@@ -6,114 +6,221 @@ Comprehensive design system documentation for iOS, Android, and Web platforms.
 
 ## 🎨 Visual Showcase
 
+<style>
+  .color-showcase {
+    background: #F5F5F5;
+    padding: 32px;
+    border-radius: 12px;
+    margin: 24px 0;
+  }
+  
+  .color-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  
+  .color-box {
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .color-box-primary-blue {
+    background: #1E3A5F;
+    color: #FFFFFF;
+  }
+  
+  .color-box-dark-bg {
+    background: #0D1B2A;
+    color: #FFFFFF;
+  }
+  
+  .color-box-white {
+    background: #FFFFFF;
+    border: 2px solid #E0E0E0;
+    color: #000000;
+  }
+  
+  .color-box-light-gray {
+    background: #F5F5F5;
+    border: 1px solid #E0E0E0;
+    color: #333333;
+  }
+  
+  .color-box-border-gray {
+    background: #E0E0E0;
+    border: 1px solid #CCCCCC;
+    color: #333333;
+  }
+  
+  .color-box-disabled {
+    background: #CCCCCC;
+    border: 1px solid #E0E0E0;
+    color: #666666;
+  }
+  
+  .color-box-success {
+    background: #4CAF50;
+    color: #FFFFFF;
+  }
+  
+  .color-box-error {
+    background: #FF6B6B;
+    color: #FFFFFF;
+  }
+  
+  .color-box-warning {
+    background: #FFA500;
+    color: #FFFFFF;
+  }
+  
+  .color-box-info {
+    background: #2196F3;
+    color: #FFFFFF;
+  }
+  
+  .color-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .color-hex {
+    font-size: 16px;
+    font-family: monospace;
+  }
+  
+  .color-description {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+  
+  .color-description-white {
+    opacity: 0.8;
+  }
+  
+  .color-description-dark {
+    color: #666;
+  }
+  
+  .section-title {
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+</style>
+
 ### Complete Color Palette
 
-<div style="background: #F5F5F5; padding: 32px; border-radius: 12px; margin: 24px 0;">
+<div class="color-showcase">
 
-<h3 style="margin-top: 0; color: #000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Primary Colors</h3>
+<h3 class="section-title" style="margin-top: 0;">Primary Colors</h3>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px;">
+<div class="color-grid">
 
-<div style="background: #1E3A5F; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">Primary Blue</div>
-  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#1E3A5F</div>
-  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Primary buttons<br/>Branding elements</div>
+<div class="color-box color-box-primary-blue">
+  <div class="color-title">Primary Blue</div>
+  <div class="color-hex" style="opacity: 0.9;">#1E3A5F</div>
+  <div class="color-description color-description-white">Primary buttons<br/>Branding elements</div>
 </div>
 
-<div style="background: #0D1B2A; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">Dark Background</div>
-  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#0D1B2A</div>
-  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Main background<br/>Dark screens</div>
+<div class="color-box color-box-dark-bg">
+  <div class="color-title">Dark Background</div>
+  <div class="color-hex" style="opacity: 0.9;">#0D1B2A</div>
+  <div class="color-description color-description-white">Main background<br/>Dark screens</div>
 </div>
 
-<div style="background: #FFFFFF; border: 2px solid #E0E0E0; border-radius: 8px; padding: 20px; color: #000000; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">White</div>
-  <div style="font-size: 16px; font-family: monospace; color: #666;">#FFFFFF</div>
-  <div style="font-size: 14px; margin-top: 12px; color: #666;">Text, inputs<br/>Social buttons</div>
-</div>
-
-</div>
-
-<h3 style="color: #000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Text Colors</h3>
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px;">
-
-<div style="background: #0D1B2A; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">Primary Text</div>
-  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#FFFFFF</div>
-  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Labels, headings<br/>Body text on dark</div>
-</div>
-
-<div style="background: #FFFFFF; border: 2px solid #E0E0E0; border-radius: 8px; padding: 20px; color: #000000; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">Dark Text</div>
-  <div style="font-size: 16px; font-family: monospace; color: #666;">#000000</div>
-  <div style="font-size: 14px; margin-top: 12px; color: #666;">Text on light bg<br/>Input text</div>
-</div>
-
-<div style="background: #FFFFFF; border: 2px solid #E0E0E0; border-radius: 8px; padding: 20px; color: #999999; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 400; margin-bottom: 8px; font-style: italic;">Placeholder</div>
-  <div style="font-size: 16px; font-family: monospace; color: #666;">#999999</div>
-  <div style="font-size: 14px; margin-top: 12px; color: #666;">Placeholder text<br/>In inputs</div>
-</div>
-
-<div style="background: #FFFFFF; border: 2px solid #FF6B6B; border-radius: 8px; padding: 20px; color: #FF6B6B; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">Error</div>
-  <div style="font-size: 16px; font-family: monospace;">#FF6B6B</div>
-  <div style="font-size: 14px; margin-top: 12px;">Error messages<br/>Error borders</div>
+<div class="color-box color-box-white">
+  <div class="color-title">White</div>
+  <div class="color-hex color-description-dark">#FFFFFF</div>
+  <div class="color-description color-description-dark">Text, inputs<br/>Social buttons</div>
 </div>
 
 </div>
 
-<h3 style="color: #000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Status Colors</h3>
+<h3 class="section-title">Text Colors</h3>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px;">
+<div class="color-grid">
 
-<div style="background: #4CAF50; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">✅ Success</div>
-  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#4CAF50</div>
-  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Success messages<br/>Positive actions</div>
+<div class="color-box color-box-dark-bg">
+  <div class="color-title" style="font-weight: 600;">Primary Text</div>
+  <div class="color-hex" style="opacity: 0.9;">#FFFFFF</div>
+  <div class="color-description color-description-white">Labels, headings<br/>Body text on dark</div>
 </div>
 
-<div style="background: #FF6B6B; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">❌ Error</div>
-  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#FF6B6B</div>
-  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Errors, warnings<br/>Critical messages</div>
+<div class="color-box color-box-white">
+  <div class="color-title" style="font-weight: 600;">Dark Text</div>
+  <div class="color-hex color-description-dark">#000000</div>
+  <div class="color-description color-description-dark">Text on light bg<br/>Input text</div>
 </div>
 
-<div style="background: #FFA500; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">⚠️ Warning</div>
-  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#FFA500</div>
-  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Warning messages<br/>Caution notices</div>
+<div class="color-box color-box-white">
+  <div class="color-title" style="font-weight: 400; font-style: italic; color: #999999;">Placeholder</div>
+  <div class="color-hex color-description-dark">#999999</div>
+  <div class="color-description color-description-dark">Placeholder text<br/>In inputs</div>
 </div>
 
-<div style="background: #2196F3; border-radius: 8px; padding: 20px; color: #FFFFFF; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 700; margin-bottom: 8px;">ℹ️ Info</div>
-  <div style="font-size: 16px; font-family: monospace; opacity: 0.9;">#2196F3</div>
-  <div style="font-size: 14px; margin-top: 12px; opacity: 0.8;">Informational messages<br/>Helpful tips</div>
+<div class="color-box" style="background: #FFFFFF; border: 2px solid #FF6B6B; color: #FF6B6B;">
+  <div class="color-title" style="font-weight: 600;">Error</div>
+  <div class="color-hex">#FF6B6B</div>
+  <div class="color-description">Error messages<br/>Error borders</div>
 </div>
 
 </div>
 
-<h3 style="color: #000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">Neutral Colors</h3>
+<h3 class="section-title">Status Colors</h3>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px;">
+<div class="color-grid">
 
-<div style="background: #F5F5F5; border: 1px solid #E0E0E0; border-radius: 8px; padding: 20px; color: #333333; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">Light Gray</div>
-  <div style="font-size: 16px; font-family: monospace; color: #666;">#F5F5F5</div>
-  <div style="font-size: 14px; margin-top: 12px; color: #666;">Secondary bg<br/>Cards</div>
+<div class="color-box color-box-success">
+  <div class="color-title">✅ Success</div>
+  <div class="color-hex" style="opacity: 0.9;">#4CAF50</div>
+  <div class="color-description color-description-white">Success messages<br/>Positive actions</div>
 </div>
 
-<div style="background: #E0E0E0; border: 1px solid #CCCCCC; border-radius: 8px; padding: 20px; color: #333333; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">Border Gray</div>
-  <div style="font-size: 16px; font-family: monospace; color: #666;">#E0E0E0</div>
-  <div style="font-size: 14px; margin-top: 12px; color: #666;">Borders<br/>Dividers</div>
+<div class="color-box color-box-error">
+  <div class="color-title">❌ Error</div>
+  <div class="color-hex" style="opacity: 0.9;">#FF6B6B</div>
+  <div class="color-description color-description-white">Errors, warnings<br/>Critical messages</div>
 </div>
 
-<div style="background: #CCCCCC; border: 1px solid #E0E0E0; border-radius: 8px; padding: 20px; color: #666666; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <div style="font-size: 24px; font-weight: 600; margin-bottom: 8px;">Disabled</div>
-  <div style="font-size: 16px; font-family: monospace;">#CCCCCC</div>
-  <div style="font-size: 14px; margin-top: 12px;">Disabled elements<br/>Inactive states</div>
+<div class="color-box color-box-warning">
+  <div class="color-title">⚠️ Warning</div>
+  <div class="color-hex" style="opacity: 0.9;">#FFA500</div>
+  <div class="color-description color-description-white">Warning messages<br/>Caution notices</div>
+</div>
+
+<div class="color-box color-box-info">
+  <div class="color-title">ℹ️ Info</div>
+  <div class="color-hex" style="opacity: 0.9;">#2196F3</div>
+  <div class="color-description color-description-white">Informational messages<br/>Helpful tips</div>
+</div>
+
+</div>
+
+<h3 class="section-title">Neutral Colors</h3>
+
+<div class="color-grid">
+
+<div class="color-box color-box-light-gray">
+  <div class="color-title" style="font-weight: 600;">Light Gray</div>
+  <div class="color-hex color-description-dark">#F5F5F5</div>
+  <div class="color-description color-description-dark">Secondary bg<br/>Cards</div>
+</div>
+
+<div class="color-box color-box-border-gray">
+  <div class="color-title" style="font-weight: 600;">Border Gray</div>
+  <div class="color-hex color-description-dark">#E0E0E0</div>
+  <div class="color-description color-description-dark">Borders<br/>Dividers</div>
+</div>
+
+<div class="color-box color-box-disabled">
+  <div class="color-title" style="font-weight: 600;">Disabled</div>
+  <div class="color-hex">#CCCCCC</div>
+  <div class="color-description">Disabled elements<br/>Inactive states</div>
 </div>
 
 </div>
