@@ -12,12 +12,12 @@ This document outlines the design methodologies, accessibility standards, and fr
 
 1. [Circle Method](#circle-method)
 2. [User Types](#user-types)
-3. [WCAG Accessibility Guidelines](#wcag-accessibility-guidelines)
+3. [WCAG - Web Content Accessibility Guidelines](#wcag-web-content-accessibility-guidelines)
 4. [STAR Framework](#star-framework)
 
 ---
 
-## 🔵 Circle Method
+## 🔵 Circle Method {#circle-method}
 
 The Circle Method is a systematic approach to product design that guides designers through understanding problems, identifying users, and recommending solutions.
 
@@ -221,7 +221,7 @@ The Circle Method is a systematic approach to product design that guides designe
 
 ---
 
-## 👥 User Types
+## 👥 User Types {#user-types}
 
 Understanding different user types helps create inclusive and effective designs.
 
@@ -269,7 +269,7 @@ Understanding different user types helps create inclusive and effective designs.
 
 ---
 
-## ♿ WCAG - Web Content Accessibility Guidelines
+## ♿ WCAG - Web Content Accessibility Guidelines {#wcag-web-content-accessibility-guidelines}
 
 WCAG ensures that digital products are accessible to everyone, including people with disabilities.
 
@@ -458,7 +458,7 @@ Content must work across assistive technologies.
 
 ---
 
-## ⭐ STAR Framework
+## ⭐ STAR Framework {#star-framework}
 
 The STAR framework (Situation, Task, Action, Result) is used to structure design case studies and communicate design decisions effectively.
 
