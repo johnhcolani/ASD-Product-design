@@ -229,8 +229,111 @@ Manage your clients, track projects, and grow your sales with comprehensive tool
 
 ### 📸 App Screenshots
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
-  <img src="images/p06.png" alt="Sales Representative - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+## Dashboard & Home
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/salesRep_dashboard.png" alt="Sales Rep Dashboard" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Dashboard</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/salesRep_home.png" alt="Sales Rep Home" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/quick_action.png" alt="Quick Action" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Quick Action</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Client Management
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/salesRep_client.png" alt="Sales Rep Client" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Client</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/salesRep_inbox.png" alt="Sales Rep Inbox" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Inbox</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Project Management
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/all_projects.png" alt="All Projects" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">All Projects</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/salesRep_project.png" alt="Sales Rep Project" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Project</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/client_project.png" alt="Client Project" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Client Project</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Invoice Management
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/create_invoice_01.png" alt="Create Invoice 01" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Create Invoice 01</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/create_invoice_02.png" alt="Create Invoice 02" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Create Invoice 02</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Other Features
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table style="white-space: nowrap;">
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/salesRep_cart.png" alt="Sales Rep Cart" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Cart</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/salesRep_profile.png" alt="Sales Rep Profile" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Profile</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/salesRep_setting.png" alt="Sales Rep Setting" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Setting</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/salesRep_drawer.png" alt="Sales Rep Drawer" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Drawer</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/sales_rep/performance analytics.png" alt="Performance Analytics" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Performance Analytics</p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ### Key Features
