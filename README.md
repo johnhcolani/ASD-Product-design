@@ -8,7 +8,7 @@ Welcome to the Absolute Stone Design app! This guide will help you get started a
 
 ### Download the App
 
-- **iOS**: Download from the [App Store](https://apps.apple.com/app/absolute-stone-design)
+- **iOS**: Download from the [App Store](https://apps.apple.com/us/app/asdusa/id1588331742?platform=iphone)
 - **Android**: Download from [Google Play Store](https://play.google.com/store/apps/details?id=com.JohnColani.asdapp)
 - **Web**: Visit [absolute-stone-design-app.web.app](https://absolute-stone-design-app.web.app)
 
