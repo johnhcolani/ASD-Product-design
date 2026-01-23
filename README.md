@@ -431,9 +431,80 @@ Manage calendar events, coordinate appointments, and keep everything organized.
 
 ### 📸 App Screenshots
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
-  <img src="images/p08.png" alt="Scheduler - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="images/p08 (1).png" alt="Scheduler - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+## Dashboard
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/scheduler/Scheduler%20dashboard.png" alt="Scheduler Dashboard" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Dashboard</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/scheduler/Scheduler%20dashboard%2001.png" alt="Scheduler Dashboard 01" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Dashboard 01</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/scheduler/Scheduler%20dashboard%2002.png" alt="Scheduler Dashboard 02" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Dashboard 02</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/scheduler/Scheduler%20dashboard%2003.png" alt="Scheduler Dashboard 03" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Dashboard 03</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Event Management
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/scheduler/Create%20Event.png" alt="Create Event" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Create Event</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/scheduler/Edit%20Event.png" alt="Edit Event" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Edit Event</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/scheduler/Delete%20Event.png" alt="Delete Event" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Delete Event</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Date & Time Pickers
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/scheduler/Date%20Picker.png" alt="Date Picker" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Date Picker</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/scheduler/Time%20Picker.png" alt="Time Picker" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Time Picker</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Profile
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/scheduler/Scheduler%20profile.png" alt="Scheduler Profile" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Profile</p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ### Key Features
