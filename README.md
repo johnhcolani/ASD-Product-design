@@ -391,8 +391,84 @@ Manage your jobs, update status, upload photos, and keep clients informed.
 
 ### 📸 App Screenshots
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
-  <img src="images/p07.png" alt="Installer - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+## Installer Dashboard & Home
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/installer/installer dashboard.png" alt="Installer Dashboard" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Dashboard</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/installer/installer home screen.png" alt="Installer Home Screen" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home Screen</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/installer/installer on the map.png" alt="Installer On The Map" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">On The Map</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Job Management
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/installer/Job image.png" alt="Job Image" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Job Image</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/installer/job history.png" alt="Job History" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Job History</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Photo Gallery & Albums
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/installer/installer gallery.png" alt="Installer Gallery" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Gallery</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/installer/create album.png" alt="Create Album" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Create Album</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/installer/add image.png" alt="Add Image" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Add Image</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/installer/delete photo alart.png" alt="Delete Photo Alert" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Delete Photo Alert</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Profile & Settings
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/installer/installer profile.png" alt="Installer Profile" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Profile</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/installer/edit profile info.png" alt="Edit Profile Info" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Edit Profile Info</p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ### Key Features
@@ -552,8 +628,286 @@ Manage the entire platform, users, content, and monitor system performance.
 
 ### 📸 App Screenshots
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0;">
-  <img src="images/p09.png" alt="Administrator - App Screenshot" width="300" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+## Dashboard & Home
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_dashboard.jpeg" alt="Admin Dashboard" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Dashboard</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_home_screen.jpeg" alt="Admin Home Screen" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home Screen</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_drawer.jpeg" alt="Admin Drawer" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Drawer</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## User Management
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_user_management.jpeg" alt="User Management" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">User Management</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_sales_reps.jpeg" alt="Sales Reps" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Sales Reps</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_schedulers.jpeg" alt="Schedulers" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Schedulers</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_installer.jpeg" alt="Installer" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Installer</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_promote_to_salesRep.jpeg" alt="Promote to SalesRep" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Promote to SalesRep</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_promote_user_to_salesrep.jpeg" alt="Promote User to Salesrep" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Promote User to Salesrep</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Analytics & Metrics
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table style="white-space: nowrap;">
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_analytic.jpeg" alt="Analytics" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Analytics</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_user_analytics.jpeg" alt="User Analytics" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">User Analytics</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_contract_analytics.jpeg" alt="Contract Analytics" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Contract Analytics</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_trend_analytics.jpeg" alt="Trend Analytics" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Trend Analytics</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_total_revenue.jpeg" alt="Total Revenue" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Total Revenue</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_total_cost.jpeg" alt="Total Cost" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Total Cost</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_total_conversation.jpeg" alt="Total Conversation" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Total Conversation</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_user_growth_rate.jpeg" alt="User Growth Rate" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">User Growth Rate</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_contract_growth_rate.jpeg" alt="Contract Growth Rate" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Contract Growth Rate</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_revenue_growth_rate.jpeg" alt="Revenue Growth Rate" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Revenue Growth Rate</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_avg_contract_value.jpeg" alt="Avg Contract Value" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Avg Contract Value</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_avg_response_time.jpeg" alt="Avg Response Time" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Avg Response Time</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_average_accuracy.jpeg" alt="Average Accuracy" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Average Accuracy</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_average_satisfaction.jpeg" alt="Average Satisfaction" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Average Satisfaction</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_confidence_level.jpeg" alt="Confidence Level" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Confidence Level</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_improvement_rate.jpeg" alt="Improvement Rate" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Improvement Rate</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_status_distribution.jpeg" alt="Status Distribution" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Status Distribution</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_sales_reps_performance.jpeg" alt="Sales Reps Performance" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Sales Reps Performance</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_predicted_contract.jpeg" alt="Predicted Contract" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Predicted Contract</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_prodicted_users.jpeg" alt="Predicted Users" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Predicted Users</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## AI Management (Amy)
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_amy_manager.jpeg" alt="Amy Manager" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Amy Manager</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_chat_with_amy.jpeg" alt="Chat with Amy" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Chat with Amy</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_ai_conversation_detail.jpeg" alt="AI Conversation Detail" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">AI Conversation Detail</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_Ai_knowledge_base.jpeg" alt="AI Knowledge Base" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">AI Knowledge Base</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_view_q_a.jpeg" alt="View Q&A" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">View Q&A</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_recommended_image.jpeg" alt="Recommended Image" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Recommended Image</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Material Management
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_new_material.jpeg" alt="New Material" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">New Material</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_popular_material.jpeg" alt="Popular Material" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Popular Material</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_trending_material.jpeg" alt="Trending Material" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Trending Material</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_limited_material.jpeg" alt="Limited Material" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Limited Material</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Contracts
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_contracts.jpeg" alt="Contracts" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Contracts</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Settings & Configuration
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_setting.jpeg" alt="Settings" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Settings</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_setting_system_configuration.jpeg" alt="System Configuration" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">System Configuration</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_api_key_management.jpeg" alt="API Key Management" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">API Key Management</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_notification_center.jpeg" alt="Notification Center" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Notification Center</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_backup and restore.jpeg" alt="Backup and Restore" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Backup and Restore</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_audit_logs.jpeg" alt="Audit Logs" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Audit Logs</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## Advanced Features
+
+<div style="overflow-x: auto; border: 3px solid #333; border-radius: 8px; padding: 20px; margin: 25px 0; background-color: #f9f9f9;">
+  <table>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_advanced_features.jpeg" alt="Advanced Features" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Advanced Features</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_advance_feature_automation.jpeg" alt="Advanced Feature Automation" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Advanced Feature Automation</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/admin/admin_work_flow.jpeg" alt="Work Flow" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Work Flow</p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ### Key Features
