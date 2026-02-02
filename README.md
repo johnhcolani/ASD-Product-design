@@ -101,8 +101,12 @@ As a client, you can browse materials, get expert advice, create contracts, and 
     </tr>
     <tr>
       <td style="text-align: center; padding: 10px;">
-        <img src="images/Clients/Home/Home.png" alt="Home" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home</p>
+        <img src="images/Clients/Home/Bottom%20Nav/Home03.png" alt="Home 03" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home 03</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Home/Bottom%20Nav/Home04.png" alt="Home 04" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home 04</p>
       </td>
     </tr>
   </table>
