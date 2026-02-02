@@ -83,6 +83,20 @@ As a client, you can browse materials, get expert advice, create contracts, and 
   <table style="white-space: nowrap;">
     <tr>
       <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Home/Bottom%20Nav/Home03.png" alt="Home 03" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home 03</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Home/Bottom%20Nav/Home04.png" alt="Home 04" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home 04</p>
+      </td>
+      <td style="text-align: center; padding: 10px;">
+        <img src="images/Clients/Home/Bottom%20Nav/scrolled%20Home.png" alt="Scrolled Home" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Scrolled Home</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; padding: 10px;">
         <img src="images/Clients/Home/Bottom%20Nav/Google%20map.png" alt="Google Map" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
         <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Google Map</p>
       </td>
@@ -91,22 +105,8 @@ As a client, you can browse materials, get expert advice, create contracts, and 
         <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Profile</p>
       </td>
       <td style="text-align: center; padding: 10px;">
-        <img src="images/Clients/Home/Bottom%20Nav/scrolled%20Home.png" alt="Scrolled Home" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Scrolled Home</p>
-      </td>
-      <td style="text-align: center; padding: 10px;">
         <img src="images/Clients/Home/Bottom%20Nav/Search%20material.png" alt="Search Material" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
         <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Search Material</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: center; padding: 10px;">
-        <img src="images/Clients/Home/Bottom%20Nav/Home03.png" alt="Home 03" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home 03</p>
-      </td>
-      <td style="text-align: center; padding: 10px;">
-        <img src="images/Clients/Home/Bottom%20Nav/Home04.png" alt="Home 04" width="200" style="border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-        <p style="margin-top: 8px; font-size: 14px; color: #666; font-weight: 500;">Home 04</p>
       </td>
     </tr>
   </table>
